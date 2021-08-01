@@ -4,7 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"java.project.sourcePaths": [
+			"Duck",
+			"Observer"
+		]
+	},
 	"extensions": {
 		"recommendations": [
 			"donjayamanne.githistory",
