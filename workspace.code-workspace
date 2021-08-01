@@ -6,8 +6,8 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"Duck",
-			"Observer"
+			"Observer",
+			"Decorator"
 		]
 	},
 	"extensions": {
