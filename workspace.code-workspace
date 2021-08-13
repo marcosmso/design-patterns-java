@@ -8,9 +8,10 @@
 		"java.project.sourcePaths": [
 			"Template",
 			"Observer",
+			"Iterator",
 			"Decorator",
 			"Command",
-			"Iterator"
+			"Composite"
 		]
 	},
 	"extensions": {
