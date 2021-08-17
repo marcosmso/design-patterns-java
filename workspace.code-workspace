@@ -10,8 +10,9 @@
 			"Observer",
 			"Iterator",
 			"Decorator",
+			"Composite",
 			"Command",
-			"Composite"
+			"State"
 		]
 	},
 	"extensions": {
