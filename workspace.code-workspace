@@ -4,17 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {
-		"java.project.sourcePaths": [
-			"Template",
-			"Observer",
-			"Iterator",
-			"Decorator",
-			"Composite",
-			"Command",
-			"State"
-		]
-	},
+	"settings": {},
 	"extensions": {
 		"recommendations": [
 			"donjayamanne.githistory",
