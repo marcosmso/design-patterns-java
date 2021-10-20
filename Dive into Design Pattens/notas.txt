@@ -1,0 +1,71 @@
+OOP BASICS 
+
+Object-oriented programming is a paradigm based on the concept
+of wrapping pieces of data, and behavior related to that
+data, into special bundles called objects, which are constructed
+from a set of “blueprints”, defined by a programmer, called
+classes.
+
+Abstraction is a model of a real-world object or phenomenon,
+limited to a specific context, which represents all details relevant
+to this context with high accuracy and omits all the rest.
+
+Encapsulation is the ability of an object to hide parts of its state and behaviors from other
+objects, exposing only a limited interface to the rest of the program.
+
+Inheritance is the ability to build new classes on top of existing
+ones.
+
+Polymorphism is the ability of a program to detect the real class
+of an object and call its implementation even when its real
+type is unknown in the current context.
+You can also think of polymorphism as the ability of an object
+to “pretend” to be something else, usually a class it extends or
+an interface it implements
+
+RELATIONS BETWEEN OBJECTS
+Association is a type of relationship in which one object uses or
+interacts with another
+
+Dependency is a weaker variant of association that usually
+implies that there’s no permanent link between objects.
+Dependency typically (but not always) implies that an object
+accepts another object as a method parameter, instantiates, or
+uses another object.
+
+Composition is a “whole-part” relationship between two
+objects, one of which is composed of one or more instances of
+the other.
+
+Aggregation is a less strict variant of composition, where one
+object merely contains a reference to another.
+
+FEATURES OF GOOD DESIGN
+Reuse
+Extensibility
+
+Encapsulate what varies: Identify the aspects of your application that vary and
+separate them from what stays the same. (minimize the effect caused
+by changes.)
+
+Program to an Interface, not an Implementation. Depend
+on abstractions, not on concrete classes.
+Example?
+1.Determine what exactly one object needs from the other:
+which methods does it execute?
+2. Describe these methods in a new interface or abstract class.
+3. Make the class that is a dependency implement this interface.
+4. Now make the second class dependent on this interface rather
+than on the concrete class. You still can make it work with
+objects of the original class, but the connection is now much
+more flexible.
+
+Favor Composition Over Inheritance
+(The added benefit is that you can replace a behavior at runtime.)
+
+SOLID
+Single Responsability Principle -> A class should have just one reason to change.
+Open/Closed Principle -> Classes should be open for extension but closed for modification.
+FALTA>>>>>>>>>>>>>>>>>>>>Liskov Substitution Principle -> When extending a class, remember that you should be
+able to pass objects of the subclass in place of objects of
+the parent class without breaking the client code.
