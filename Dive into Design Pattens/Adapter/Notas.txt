@@ -1,0 +1,15 @@
+An adapter wraps one of the objects to hide the complexity
+of conversion happening behind the scenes. The wrapped
+object isn’t even aware of the adapter.
+
+1. The adapter gets an interface, compatible with one of the
+existing objects.
+2. Using this interface, the existing object can safely call the
+adapter’s methods.
+3. Upon receiving a call, the adapter passes the request to the
+second object, but in a format and order that the second object
+expects.
+
+> Use the Adapter class when you want to use some existing
+class, but its interface isn’t compatible with the rest of
+your code.

@@ -1,0 +1,14 @@
+> Use the Bridge pattern when you want to divide and organize
+a monolithic class that has several variants of some functionality
+(for example, if the class can work with various database
+servers).
+
+> Use the pattern when you need to extend a class in several
+orthogonal (independent) dimensions.
+
+> Use the Bridge if you need to be able to switch implementations
+at runtime.
+
+> Identify the orthogonal dimensions in your classes. These
+independent concepts could be: abstraction/platform, domain/
+infrastructure, front-end/back-end, or interface/implementation.
