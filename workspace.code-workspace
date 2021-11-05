@@ -4,7 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+  "settings": {
+    "java.project.sourcePaths": [
+      "dive-into-design-patterns\\Proxy"
+    ]
+  },
 	"extensions": {
 		"recommendations": [
 			"donjayamanne.githistory",
