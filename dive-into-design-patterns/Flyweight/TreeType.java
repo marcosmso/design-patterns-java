@@ -1,3 +1,4 @@
+package Flyweight;
 public class TreeType {
   String name;
   String color;

@@ -1,3 +1,5 @@
+package Proxy;
+
 import java.util.HashMap;
 
 public class CachedDatabase implements IDatabase{

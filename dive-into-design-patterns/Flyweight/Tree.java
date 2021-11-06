@@ -1,3 +1,4 @@
+package Flyweight;
 public class Tree {
   int x;
   int y;

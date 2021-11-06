@@ -1,3 +1,4 @@
+package Decorator;
 public class DataSourceDecorator implements DataSource{
   protected DataSource wrappee;
 

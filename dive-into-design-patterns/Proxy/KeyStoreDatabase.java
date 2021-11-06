@@ -1,3 +1,5 @@
+package Proxy;
+
 import java.util.HashMap;
 
 public class KeyStoreDatabase implements IDatabase{
